@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+  font-family: "Times New Roman", sans-serif;
+  background-color: rgb(153, 172, 190);
+  /* font-size: 20px; */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.about,
+.projects {
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.project {
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px auto;
+  color: #fff;
+}
+
+.projects p {
+  margin-bottom: 20px;
+  padding: 3px;
+}
+
+.project a {
+  color: #ff3;
+}
+
+.project a:hover {
+  color: #fff;
+}
+
+.project:nth-child(odd) {
+  background-color: #3f2b2b;
+}
+.project:nth-child(even) {
+  background-color: rgb(45, 46, 45);
+}
+
+iframe {
+  border: 2px solid gold;
+  border-radius: 3px;
+  height: 500px;
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%;
+}
+.certificateHeading {
+  text-align: center;
+  font-family: cursive, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+}
+
+.certificates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  gap: 2px;
+}
+
+.certificate {
+  width: 300px;
+  height: 225px;
+  text-align: center;
+}
+
+.certificate figure img {
+  width: 80%;
+  height: 50%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p a {
+  display: block;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+  iframe {
+    border: 6px solid rgb(153, 172, 190);
+    border-radius: 10px;
+    height: 600px;
+    display: block;
+    margin: 0 auto 20px;
+    width: 50%;
+  }
+  .certificate {
+    width: 500px;
+    height: 400px;
+  }
+
+  .project {
+    width: 70%;
+  }
+}
