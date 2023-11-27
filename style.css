@@ -91,6 +91,7 @@ iframe {
 .certificate figure img {
   width: 80%;
   height: 50%;
+  border-radius: 10px;
 }
 
 footer {
@@ -128,4 +129,27 @@ footer p a {
   .project {
     width: 70%;
   }
+}
+
+.skill__container {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.skill__text {
+  font-family: "Fira Code", arial, "Times New Roman", Times, serif;
+  margin-bottom: 5px;
+  font-variant: small-caps;
+}
+
+.skill__list {
+  list-style-type: circle;
+  margin-left: 40px;
+}
+
+.skill__list li {
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 5px;
+  font-family: "Times New Roman", Times, serif;
 }
