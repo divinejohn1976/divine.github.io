@@ -94,6 +94,10 @@ iframe {
   border-radius: 10px;
 }
 
+.certificate figcaption {
+  font-style: oblique;
+}
+
 footer {
   background-color: #333;
   color: #fff;
